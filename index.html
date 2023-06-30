@@ -4,11 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Your Sketchbook</title>
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
 <body>
+  <h1 id="heading">Etch-a-Sketch</h1>
+  <div id="functions">
+    <div id="button" >
+      <button id="create-button">Create</button>
+      <button id="clear-button">Clear</button>
+    </div>
+    <input type="range" id="grid-slider" min="16" max="35" value="16">
+  </div>
   <div id="grid-container"></div>
 </body>
 </html>
